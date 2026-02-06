@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Full Stack & AI Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="burger-menu" id="burgerMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="navMenu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="role">Full Stack Developer & AI Engineer</div>
+                <h1>Building Intelligent<br>Web Solutions</h1>
+                <p class="tagline">
+                    Passionate about crafting scalable applications and implementing cutting-edge AI solutions. I transform complex problems into elegant, user-centric digital experiences.
+                </p>
+                <a href="#contact" class="cta-button">Let's Connect</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+
+                <div class="about-text">
+                    <p>
+                        I'm a <strong>Full Stack Developer and AI Engineer</strong> with a strong passion for building innovative, high-impact solutions that bridge powerful backend systems with clean, intuitive, and user-friendly interfaces.
+                    </p>
+
+                    <p>
+                        I hold a <strong>Diploma in Computer Engineering from Cape Peninsula University of Technology (CPUT)</strong> and I am currently completing my <strong>Bachelor's Degree in Computer Engineering</strong> this year. My academic background, combined with hands-on industry experience, gives me a solid foundation in both theory and real-world application.
+                    </p>
+
+                    <p>
+                        My journey in tech is driven by curiosity, problem-solving, and a constant desire to learn and improve. I specialize in building <strong>end-to-end applications</strong> that leverage modern web technologies, scalable architectures, and <strong>artificial intelligence</strong> to solve real-world business challenges.
+                    </p> 
+
+                    <p>
+                        From architecting scalable microservices and RESTful APIs, to training and integrating machine learning models, to crafting pixel-perfect and responsive user experiences — I bring a <strong>holistic, detail-oriented approach</strong> to every project. I thrive in collaborative environments, adapt quickly to new technologies, and am highly motivated to contribute to impactful, forward-thinking teams.
+                    </p>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Technologies</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">Bootstrap 5</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">JQuery</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">MYSQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">REST APIs</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>AI & Machine Learning</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">OpenAI Agents SDK</span>
+                        <span class="skill-tag">LangGraph</span>
+                        <span class="skill-tag">LangChain</span>
+                        <span class="skill-tag">AutoGen</span>
+                        <span class="skill-tag">CrewAI</span>
+                        <span class="skill-tag">MCP</span>
+                        <span class="skill-tag">Hugging Face</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('./Images/AI_Assistant.png'); height: 300px; background-size: cover;"></div>
+                    <div class="project-content">
+                        <h3>Personal AI Assistant</h3>
+                        <h4>Problem Being Solved</h4>
+                         <p>
+                            The goal of this project is to build a modular AI assistant that can act as a developer productivity tool like handling tasks such as contextual assistance, task reasoning, and extensible integrations. Instead of a single-purpose chatbot, the system is designed as a foundation for AI agents that can evolve over time.
+                        </p>  
+
+                        <h4>Key Design Decisions</h4>
+                            <p>
+                                Modular architecture to allow future AI agents or tools to be added without rewriting core logic.Clear separation of concerns between input handling, AI reasoning, and output generation.
+                                State-aware logic, enabling the assistant to maintain context across interactions.
+                                Designed with extensibility in mind, allowing future integrations such as APIs, task automation, or UI layers.
+                        </p>
+
+                        <h4>What I Would Improve Next</h4>
+                         <p>
+                            Add memory persistence (database or vector store) to retain long-term context.
+                            Introduce agent orchestration (multiple agents with defined responsibilities).
+                            Implement failure handling and fallback logic when AI responses are incomplete or ambiguous.
+                            Add authentication and governance controls for enterprise usage.
+                         </p>
+
+
+                        <div class="project-tech">
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">OpenAI</span>
+                            <span class="tech-badge">HuggingFace</span>
+                            <span class="tech-badge">FastAPI</span>
+                         
+                        </div>
+                        <div class="project-links">
+                            <a href="https://huggingface.co/spaces/Kalonji24/career_ai_agent" class="project-link">View Demo</a>
+                            <a href="https://github.com/Kalonji24/My-Personal-AI-Assistant" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('./Images/Polymer\ API.png'); height: 300px; background-size: cover;"></div>
+                    <div class="project-content">
+                     <h3>Polymer Processing API</h3>
+                        <h4>Problem Being Solved</h4>
+                            <p>
+                                This API models a polymer processing workflow, providing structured endpoints for managing materials, processing parameters, and operational logic. It focuses on representing real-world industrial constraints in software rather than being a purely CRUD-based API.
+                            </p>
+
+                        <h4>Key Design Decisions</h4>
+                            <p>
+                                RESTful API structure with clearly defined endpoints and responsibilities.
+                                Emphasis on domain modeling, ensuring business rules are enforced at the API level.
+                                Designed around system constraints such as process parameters, validation rules, and operational boundaries.Structured for future scalability and integration with external systems.
+                            </p>
+
+                        <h4>What I Would Improve Next</h4>
+                            <p>
+                                Introduce role-based access control (RBAC) for operational safety.
+                                Add state machines to model process lifecycle stages more explicitly.
+                                Implement logging, monitoring, and error recovery mechanisms.
+                                Add automated tests to validate edge cases and failure modes.
+                            </p>
+    
+                        <div class="project-tech">
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">FastAPI</span>
+                            <span class="tech-badge">MYSQL</span>
+                            <span class="tech-badge">PostgreSQL</span>
+                            <span class="tech-badge">Docker</span>
+                            
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Demo</a>
+                            <a href="https://github.com/Kalonji24/Polymer-Processing-API" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div class="project-image">📊</div>
+                    <div class="project-content">
+                     <h3>Permalist Project</h3>
+                        <h4>Problem Being Solved</h4>
+                            <p>
+                                The Permalist-Project solves the problem of managing a to-do list that persists across sessions. Instead of losing tasks when the page is refreshed or the app restarts, the application stores tasks in a database, allowing users to reliably add, edit, and delete items while keeping their data permanently saved.
+                            </p>
+
+                        <h4>Key Design Decisions</h4>
+                                <p>   
+                                    The project uses Node.js and Express to handle server-side logic and routing, with EJS for server-side rendering of dynamic pages. A PostgreSQL database is used to store tasks, ensuring persistence and real-world backend integration. The architecture follows a straightforward CRUD pattern, prioritizing simplicity, readability, and learning full-stack fundamentals over complex abstractions.
+                                </p>
+                                    
+
+                        <h4>What I Would Improve Next</h4>
+                            <p>
+                                Future improvements would include adding user authentication so multiple users can manage separate task lists, improving the UI with a modern frontend framework like React, and exposing a fully RESTful API for better scalability. Adding automated tests, validation, and deployment pipelines would also make the application more production-ready and maintainable.  
+                            </p>
+    
+                        <div class="project-tech">
+                            <span class="tech-badge">EJS</span>
+                            <span class="tech-badge">CSS</span>
+                            <span class="tech-badge">Javascript</span>
+                            
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Demo</a>
+                            <a href="https://github.com/Kalonji24/Permalist-Project" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div class="project-image">📊</div>
+                    <div class="project-content">
+                     <h3>Blog-API-Project</h3>
+                        <h4>Problem Being Solved</h4>
+                            <p>
+                                The Blog-API-Project solves the problem of managing blog content through a backend API that supports creating, reading, updating, and deleting blog posts. It demonstrates how a blog system can function through structured API endpoints while allowing content to be displayed dynamically to users.
+                            </p>
+
+                        <h4>Key Design Decisions</h4>
+                            <p>
+                                The project is built with Node.js and Express to handle API routing and request handling, using EJS for server-side rendering of blog pages. It follows RESTful API principles with clear endpoints and uses in-memory storage to keep the project simple and focused on API logic and full-stack learning. The separation between the API logic and the rendered views helps reinforce clean architecture and modular development.
+                            </p>
+
+                        <h4>What I Would Improve Next</h4>
+                            <p>
+                                   Future improvements would include adding a persistent database such as PostgreSQL or MongoDB so data is not lost on server restart, implementing user authentication and authorization for managing posts securely, and improving input validation and error handling. Converting the frontend into a modern SPA (React or Vue) that consumes the API would also make the project more scalable and production-ready.
+                            </p>
+    
+                        <div class="project-tech">
+                            <span class="tech-badge">CSS</span>
+                            <span class="tech-badge">Javascript</span>
+                            <span class="tech-badge">EJS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Demo</a>
+                            <a href="https://github.com/Kalonji24/Blog-API-Project" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">📊</div>
+                    <div class="project-content">
+                     <h3>Student Course Registration System</h3>
+                        <h4>Problem Being Solved</h4>
+                            <p>
+                                This project implements a basic university course registration system in Java to solve the problem of managing students and their enrollment in courses through a simple object-oriented program. It provides foundational functionality for adding and tracking students, courses, and registrations in a way that reflects real-world academic systems.
+                            </p>
+
+                        <h4>Key Design Decisions</h4>
+                            <p>
+                                The system is built using Java with an emphasis on object-oriented design and UML compliance, structuring core entities such as Course, Student, and University into dedicated classes. This makes the program modular and follows good software engineering principles, enabling clear separation of concerns and easier reasoning about how students and courses interact within the system.
+                            </p>
+
+                        <h4>What I Would Improve Next</h4>
+                            <p>
+                                To enhance the project beyond its current basic implementation, you could introduce persistent storage (e.g., a database) so data remains saved between runs, implement user interaction (CLI or GUI) rather than just console output, and add validation and error handling to make the system more robust. Additionally, expanding the feature set with authentication, scheduling constraints, and search functionality would make the application more realistic and useful for real-world academic environments.
+
+                            </p>
+    
+                        <div class="project-tech">
+                            <span class="tech-badge">Java</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Demo</a>
+                            <a href="https://github.com/Kalonji24/A-Student-Course-Registration-System-" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+
+         <div class="project-card">
+                    <div class="project-image">📊</div>
+                    <div class="project-content">
+                     <h3> Smart Budget Manager</h3>
+                        <h4>Problem Being Solved</h4>
+                            <p>
+                                The Smart-Budget-Manager project tackles the challenge many people face in tracking and managing their personal finances by providing a centralized tool to plan budgets, log expenses, and gain visibility into how money is being spent. Instead of relying on manual spreadsheets or fragmentary notes, the app helps users organize their financial data in a structured way to make better budgeting decisions.
+                            </p>
+
+                        <h4>Key Design Decisions</h4>
+                            <p>
+                                The repository is set up as a standalone app that focuses on comprehensive budget management, with the intention of addressing "key challenges people face when managing their money." While the current GitHub landing page shows the project in its early state with mainly HTML content, the core idea suggests a user-centric budgeting interface where expenses and budgets are likely tracked and displayed in a user-friendly way. The emphasis appears to be on simplicity and practicality, starting with a minimal interface that can grow in complexity as features get added.
+                            </p>
+
+                        <h4>What I Would Improve Next</h4>
+                            <p>
+                                To make the project more robust and production-ready, you could begin by adding a clear project description and documentation (what it does, how to run it, tech stack, etc.), then integrate persistent storage (e.g., PostgreSQL or MongoDB) so user data isn't lost. Enhancing the app with user authentication, categorization of expenses, analytics (charts and summaries), and a clean frontend using a modern framework like React or Vue would significantly improve usability and scalability. Adding responsive design and export/import features (CSV, Excel) would also make it more practical for real everyday use.
+                            </p>
+    
+                        <div class="project-tech">
+                            <span class="tech-badge">HTML</span>
+                            <span class="tech-badge">CSS</span>
+                            <span class="tech-badge">Javascript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Demo</a>
+                            <a href="https://github.com/Kalonji24/Smart-Budget-Manager" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+<!-- Add more project cards as needed -->     
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Let's Work Together</h2>
+                <p class="contact-text">Experienced full-stack developer and AI engineer available for immediate opportunities. I deliver clean, maintainable code, thrive in agile environments, and have a track record of shipping quality products on time. 
+                                         Let's discuss how my technical expertise aligns with your team's goals.</p>
+                <div class="contact-links">
+                    <a href="mailto:kalonjilubo12@gmail.com" class="contact-link">
+                        <svg class="contact-icon" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                        <span>Email</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kalonji-luboya-262464259/" target="_blank" class="contact-link">
+                        <svg class="contact-icon" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+                        </svg>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/Kalonji24" target="_blank" class="contact-link">
+                        <svg class="contact-icon" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+                        </svg>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Full Stack Developer & AI Engineer Portfolio. Crafted with passion and code. Developed by Kalonji Luboya.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
